@@ -1,0 +1,15 @@
+# Ignore Docker volumes and system files
+data/
+logs/
+config/wazuh_indexer_ssl_certs/
+config/wazuh_dashboard_ssl_certs/
+config/wazuh_manager_ssl_certs/
+.env
+*.log
+*.pem
+*.crt
+*.key
+__pycache__/
+*.tmp
+	
+
